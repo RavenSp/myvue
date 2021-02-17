@@ -11,18 +11,18 @@
       			menu: [
       			{
         header: true,
-        title: 'Main Navigation',
+        title: 'Главное меню',
         // hidden: false
         hiddenOnCollapse: true,
         // class: ''
-        // attributes: {}
+        attributes: {'style':'height: 50px;',}
     },
       				{
 			          href: '/',
 			          title: 'Installation',
 			          icon: 'fa fa-download',
 			          badge: {
-					            text: 'new',
+					            text: '+15',
 					            class: 'vsm--badge_default',
 					            // attributes: {}
 					            element: 'span'
@@ -33,6 +33,7 @@
 			          title: 'Basic Usage',
 			          icon: 'fa fa-code'
 			        },
+
       			],
       			collapsed: true,
       		}
@@ -41,6 +42,21 @@
 </script>
 
 <style scoped>
+
+	.v-sidebar-menu {
+		top: 50px;
+		color: 
+	}
+
+	.v-sidebar-menu .vsm--link.vsm--link_active {
+		color: red;
+	}
+
+	.v-sidebar-menu .vsm--item .vsm--link_level-1.vsm--link_active {
+    box-shadow: 3px 0px 0px 0px var(--main-color) inset;
+  	}
+
+	
 	
 
 </style>
