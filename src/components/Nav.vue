@@ -52,9 +52,7 @@
 		color: red;
 	}
 
-	.v-sidebar-menu .vsm--item .vsm--link_level-1.vsm--link_active {
-    box-shadow: 3px 0px 0px 0px var(--main-color) inset;
-  	}
+	
 
 	
 	

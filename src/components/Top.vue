@@ -18,7 +18,8 @@
 		width: 100%;
 		position: fixed;
 		top:0;
-		z-index: 999;
+		z-index: 1000;
+		box-shadow: 0 0 5px black;
 	}
 
 	.topnav {
